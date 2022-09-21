@@ -7,7 +7,7 @@ public class TD_test {
 
         Vehicule monTest = new Vehicule(4, "Tesla");
         System.out.println(monTest.getMarque());
-
+        System.out.println("");
         Voiture monTestV = new Voiture("Camaro", 426);
         System.out.println(monTestV.getNombreDeRoue());
         System.out.println(monTestV.fraisKilometrique(100));

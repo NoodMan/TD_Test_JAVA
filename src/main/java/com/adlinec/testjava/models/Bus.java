@@ -14,4 +14,8 @@ public class Bus extends Vehicule{
     }
 
 
+    @Override //pour definir la methode abtraite
+    public String info() {
+        return super.info();
+    }
 }

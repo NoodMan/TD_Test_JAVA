@@ -23,4 +23,11 @@ public class Voiture extends Vehicule{
         return nbrKilometre * nbrDeChevaux * 34;
     }
 
+    @Override
+    public String info() {
+        return "C'est une voiture à 4 roues ";
+    };
+//    public String info() {
+//        return super.info().toUpperCase();
+//    }
 }

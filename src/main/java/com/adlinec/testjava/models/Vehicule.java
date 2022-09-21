@@ -1,6 +1,6 @@
 package com.adlinec.testjava.models;
 
-public class Vehicule {
+public abstract class Vehicule {
 
     private int nombreDeRoue;
 
@@ -11,6 +11,11 @@ public class Vehicule {
         this.marque = marque;
     }
 
+    public String info () {
+        return "Véhicules sans catégorie à " + nombreDeRoue + " roues";
+    }
+
+//    public abstract String info ();  //methode abtraite
     public int getNombreDeRoue() {
         return nombreDeRoue;
     }

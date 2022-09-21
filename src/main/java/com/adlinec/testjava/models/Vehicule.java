@@ -1,10 +1,10 @@
 package com.adlinec.testjava.models;
 
-public abstract class Vehicule {
+public class Vehicule { //public abstract class Vehicule --> pas possible de crée de nouveau vehicule
 
-    private int nombreDeRoue;
+    protected int nombreDeRoue;
 
-    private String marque;
+    protected String marque;
 
     public Vehicule(int nombreDeRoue, String marque) {
         this.nombreDeRoue = nombreDeRoue;
